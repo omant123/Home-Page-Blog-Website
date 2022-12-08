@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between
+}
+h3{
+    font-size: 30px;
+}
+ul{
+    display: flex;
+    /* text-decoration: none; */
+    list-style: none;
+    gap: 18px;
+    font-size: 20px;
+}
+main{
+    width: 90vw;
+    margin: 0 auto;
+}
+.a{
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    margin-top: 76px;
+    font-size: 30px
+}
+.c img{
+    border-radius: 46px;
+    
+}
+.d{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid grey;
+    box-shadow: 0px 5px 3px rgb(221 221 221 / 25%);
+    width: 85vw;
+}
+.e{
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+    margin-left: 18px
+}
+.f{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: auto;
+    color: black;
+}
+.h{
+    display: grid;
+    padding: 22px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+.i{display: flex;
+    max-width: 25vw;
+    /* padding: 10px; */
+    border: 1px solid gray;
+    box-shadow: 0px 5px 3px rgb(221 221 221 / 25%);
+    transition: 0.2s ease-in-out;
+}
+.j{
+    display: flex;
+    flex-direction: column;
+}
+.i:hover{
+    transform: scale(1.04);
+    box-shadow: 0px 5px 3px rgb(221 221 221 / 25%);
+    transition: 0.2s ease-in-out;
+}
+.k,.n{
+    padding: 14px;
+    display: flex;
+    gap: 14px;
+    flex-direction: column;
+}
+.m{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border: 1px solid grey;
+    box-shadow: 0px 5px 3px rgb(221 221 221 / 25%);
+    width: 85vw;
+}
+footer{
+    border: 1px solid gray;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.q{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: 0 auto;
+    padding: 10px;
+}
+.p img{
+    height: 20px;
+    width: 20px;
+}
+.p{
+    gap: 15px;
+    display: flex;
+}
+
+
